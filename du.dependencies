@@ -1,6 +1,24 @@
 [
   {
     "remote":       "du",
+    "repository":   "n1_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display-n1",
+    "revision":     "du44"
+  },
+  {
+    "remote":       "du",
+    "repository":   "n1_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media-n1",
+    "revision":     "du44"
+  },
+  {
+    "remote":       "du",
+    "repository":   "n1_hardware_qcom_audio",
+    "target_path":  "hardware/qcom/audio-n1",
+    "revision":     "du44"
+  },
+  {
+    "remote":       "du",
     "repository":   "android_kernel_oppo_apq8064",
     "target_path":  "kernel/oppo/apq8064",
     "revision":     "du44"
