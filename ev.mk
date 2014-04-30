@@ -23,19 +23,19 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the prebuilt list of APNs
-$(call inherit-product, vendor/du/config/gsm.mk)
+$(call inherit-product, vendor/ev/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/du/config/common.mk)
+$(call inherit-product, vendor/ev/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/oppo/n1/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := du_n1
+PRODUCT_NAME := ev_n1
 PRODUCT_DEVICE := n1
 PRODUCT_BRAND := Oppo
 PRODUCT_MODEL := N1
