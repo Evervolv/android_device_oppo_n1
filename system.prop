@@ -2,11 +2,3 @@
 # system.prop
 #
 wifi.interface=wlan0
-
-# Hardware info
-ro.device.chipset=Qualcomm Snapdragon 600 APQ8064T
-ro.device.cpu=1.7GHz quad-core Krait 300
-ro.device.gpu=Qualcomm Adreno 320
-ro.device.rear_cam=12.9 MP
-ro.device.front_cam=12.9 MP
-ro.device.screen_res=1080x1920
