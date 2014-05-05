@@ -1,14 +1,27 @@
 [
   {
-    "remote":       "du",
-    "repository":   "android_kernel_oppo_apq8064",
-    "target_path":  "kernel/oppo/apq8064",
-    "revision":     "du44"
+    "repository":   "android_hardware_qcom_display-caf",
+    "target_path":  "hardware/qcom/display-caf",
+    "dep_type": "hardware"
   },
   {
-    "remote":       "du",
-    "repository":   "proprietary_vendor_oppo",
+    "repository":   "android_hardware_qcom_media-caf",
+    "target_path":  "hardware/qcom/media-caf",
+    "dep_type": "hardware"
+  },
+  {
+    "repository":   "android_hardware_qcom_audio-caf",
+    "target_path":  "hardware/qcom/audio-caf",
+    "dep_type": "hardware"
+  },
+  {
+    "repository":   "android_kernel_oppo_apq8064",
+    "target_path":  "kernel/oppo/apq8064",
+    "dep_type": "kernel"
+  },
+  {
+    "repository":   "android_vendor_oppo",
     "target_path":  "vendor/oppo",
-    "revision":     "du44"
+    "dep_type": "vendor"
   }
 ]
