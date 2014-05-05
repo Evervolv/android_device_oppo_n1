@@ -1,0 +1,14 @@
+[
+  {
+    "remote":       "du",
+    "repository":   "android_kernel_oppo_apq8064",
+    "target_path":  "kernel/oppo/apq8064",
+    "revision":     "du44"
+  },
+  {
+    "remote":       "du",
+    "repository":   "proprietary_vendor_oppo",
+    "target_path":  "vendor/oppo",
+    "revision":     "du44"
+  }
+]
